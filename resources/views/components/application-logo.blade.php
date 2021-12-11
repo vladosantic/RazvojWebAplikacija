@@ -1,0 +1,1 @@
+<img src="assets/logo.png" alt="Sanitas logo" width="200px" height="70px">
