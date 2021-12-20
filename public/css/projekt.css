@@ -17,7 +17,9 @@ body{
 	align-items: center;
 	align-content: center;
 }
-
+.github {
+	padding-top: 2px;
+}
 #pozdrav_text{
 	font-size:300%;
 	font-weight:bold;
@@ -48,7 +50,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	align-content: center;
 	width:90%;
@@ -404,4 +406,9 @@ a:link, a:visited, a:active, a:hover {
 	text-align:right;
 	padding:2px;
 }
+#baza{
+	margin:auto;
+	text-align:center;
+}
+
 

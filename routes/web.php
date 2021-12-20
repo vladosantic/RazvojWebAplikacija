@@ -21,5 +21,8 @@ Route::get('/proizvodi', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/model', function () {
+    return view('model');
+});
 
 require __DIR__.'/auth.php';
