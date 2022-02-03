@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <title>Online ljekarna Sanitas</title>
         <link rel="icon" type="image/x-icon" href="{{ URL::asset('assets/santass.jpg') }}">
@@ -86,7 +89,7 @@
             igrica, a kasnije i za samo programiranje. Smatram da ću s 
             ovim projektom dodatno unaprijediti i proširiti svoje znanje 
             koje će mi u bliskoj budućnosti mnogo koristiti.
-            <br><br>
+            <br/>
             <a href="mailto:hrvoje.sesar@fsre.sum.ba">Kontakt mail</a><br>
 			<a href="https://github.com/hrvojesesar" target="blank"><img src="assets/github.png" width="25" height="25" class="github"/></a>
             <a href="https://www.facebook.com" target="blank"><img src="assets/facebook.png" width="25" height="25"/></a>

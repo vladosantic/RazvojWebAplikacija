@@ -5,11 +5,11 @@ body{
 	padding:0;
 	margin:0;
 }
-#pozdrav{
+.pozdrav{
 	padding:30px;
+	margin: auto;
 	position:float;
 	width:50%;
-	margin-left:23%;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -18,12 +18,12 @@ body{
 	align-content: center;
 }
 .github {
-	padding-top: 2px;
+	padding-top: 3px;
 }
 #pozdrav_text{
 	font-size:300%;
 	font-weight:bold;
-	font-family:Helvetica, sans-serif;
+	font-family:'Inter', sans-serif;
 	text-align: center;
 	display: block;
 	flex-grow: 0;
@@ -58,11 +58,6 @@ body{
 #trazilica{
 	width: 30%;
 	display:flex;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
 }
 .searchTerm {
   width: 100%;
@@ -73,13 +68,13 @@ body{
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
-  font-family:Helvetica, sans-serif;
+  font-family:'Inter', sans-serif;
 }
 
 .searchButton {
   width: 95px;
   height: 36px;
-  font-family:Helvetica, sans-serif;
+  font-family:'Inter', sans-serif;
   border: 1px solid #1B4965;
   background: #1B4965;
   text-align: center;
@@ -92,8 +87,8 @@ body{
 
 #k_prvi {
 	padding:10px;
-    font-family:Helvetica, sans-serif;
-    color: white;
+  font-family:'Inter', sans-serif;
+  color: white;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -102,6 +97,8 @@ body{
 	align-content: center;
 	width:75%;
 	margin:auto;
+	margin-top: 10px;
+	border-radius: 50px;
 }
 #ljekarna{
 	width:145px;
@@ -116,7 +113,7 @@ body{
 
 #login{
 	color:white;
-    font-family:Helvetica, sans-serif;
+    font-family:'Inter', sans-serif;
     color:white;
 	display: block;
 	flex-grow: 0;
@@ -128,13 +125,14 @@ body{
 
 .kartica{
 	font-size:120%;
-    font-family:Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
 	text-align:center;
-    color:white;
-	border:0.3px solid white;
-	border-radius:40px;
-	padding:9px;
-	background-color:#1B4965;
+  color:white;
+  border-radius: 20px;
+	padding:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #205575;
 	display: block;
 	flex-grow: 0;
 	flex-shrink: 1;
@@ -157,7 +155,7 @@ a:link, a:visited, a:active, a:hover {
 }
 
 #naslov{
-    font-family:Helvetica, sans-serif;
+    font-family:'Inter', sans-serif;
 	color:white;
 	font-size:150%;
 	margin-top:1%;
@@ -179,7 +177,7 @@ a:link, a:visited, a:active, a:hover {
 }
 .k2{
 	font-size: large;
-    font-family:Helvetica, sans-serif;
+    font-family:'Inter', sans-serif;
 	text-align:center;
     color:white; 
 	padding:15px;
@@ -196,7 +194,7 @@ a:link, a:visited, a:active, a:hover {
 }
 
 #aut {
-	font-family:Helvetica, sans-serif;
+	font-family:'Inter', sans-serif;
 	color:white;
 	font-size:150%;
 	background-color:#1B4965;
@@ -234,7 +232,7 @@ a:link, a:visited, a:active, a:hover {
 
 }
 .k3{
-	font-family:Helvetica, sans-serif;
+	font-family:'Inter', sans-serif;
     color:white;
 	font-weight:bold;
 	background-color:#1B4965;
@@ -262,7 +260,7 @@ a:link, a:visited, a:active, a:hover {
 
 
 .naslov2{
-	font-family:Helvetica, sans-serif;
+	font-family:'Inter', sans-serif;
 	font-weight:bold;
 	background-color:#002f38;
 	color:white;
@@ -282,7 +280,7 @@ a:link, a:visited, a:active, a:hover {
 	width:50%;
 	margin:auto;
 	background-color:#1B4965;
-	font-family:Helvetica, sans-serif;
+	font-family:'Inter', sans-serif;
 	font-weight:bold;
 	font-size:110%;
 	text-align:center;
@@ -318,7 +316,7 @@ a:link, a:visited, a:active, a:hover {
 }
 .registrirajse {
     color: white;
-    font-family:Helvetica, sans-serif;
+    font-family:'Inter', sans-serif;
     text-align: center;
     color: white;
 	background-color:#1B4965;
@@ -354,7 +352,7 @@ a:link, a:visited, a:active, a:hover {
 	color:white;
 	font-size:80%;
 	font-weight:bold;
-	font-family:Helvetica, sans-serif;
+	font-family:'Inter', sans-serif;
 }
 #footer2{
 	display: flex;
@@ -377,7 +375,6 @@ a:link, a:visited, a:active, a:hover {
 #proizvodi{
 	padding:10px;
 	width:70%;
-	background-color:white;
 	margin:auto;
 	display: flex;
 	flex-direction: row;
@@ -386,29 +383,61 @@ a:link, a:visited, a:active, a:hover {
 	align-items: center;
 	align-content: center;	
 }
+#proizvodbar{
+	margin: auto;
+	padding: 20px;
+	width: 70%;
+	font-family: 'Inter', sans-serif;
+}
+#opcija{
+	padding: 10px;
+	font-family: 'Inter', sans-serif;
+}
 .proizvod{
 	padding:20px;
 	border:0.4px solid black;
 	border-radius:10px;
 	text-align:center;
 	margin:10px;
+	background-color: #2d7791;
 }
 .ime_proizvoda{
 	border:0.2px solid black;
-	font-family:Helvetica, sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight:bold;
-	padding:5px;
+	color: white;
+	padding:10px;
 	text-align:center;
-	border-radius:5px;
+	border-radius:10px;
+	background-color: #1B4965;
 }
 .cijena_proizvoda{
-	font-family:Helvetica, sans-serif;
-	text-align:right;
+	font-family:'Inter', sans-serif;
 	padding:2px;
+	margin: auto;
+	font-weight: bold;
+}
+.slikapr{
+	padding: 15px;
 }
 #baza{
 	margin:auto;
 	text-align:center;
 }
-
+.kosarica {
+	font-family:'Inter', sans-serif;
+	color: white;
+	border:0.2px solid black;
+	font-weight:bold;
+	padding:5px;
+	text-align:center;
+	border-radius:5px;
+	background-color: #1B4965;
+	padding-bottom: 10px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:5px;
+	padding:10px;
+	width:50%;
+}
 
