@@ -140,6 +140,10 @@ body{
 	align-self: auto;
 	order: 0;
 }
+.kartica a:hover{
+	padding: 12px;
+	color: black;
+}
 a:link, a:visited, a:active, a:hover {
     text-decoration: none;
     color: white;
@@ -389,10 +393,14 @@ a:link, a:visited, a:active, a:hover {
 	width: 70%;
 	font-family: 'Inter', sans-serif;
 }
-#opcija{
-	padding: 10px;
+select{
 	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	color: white;
+	background-color: #1B4965;
 }
+
 .proizvod{
 	padding:20px;
 	border:0.4px solid black;
@@ -412,6 +420,12 @@ a:link, a:visited, a:active, a:hover {
 	background-color: #1B4965;
 }
 .cijena_proizvoda{
+	font-family:'Inter', sans-serif;
+	padding:2px;
+	margin: auto;
+	font-weight: bold;
+}
+h4{
 	font-family:'Inter', sans-serif;
 	padding:2px;
 	margin: auto;
