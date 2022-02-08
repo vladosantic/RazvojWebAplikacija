@@ -38,8 +38,8 @@
     <div id="proizvodbar">
         <label>Filtriranje</label>
         <select id="izbor" onchange="funkcija(this.value)">
-            <option value="abecednou">Abecedno(uzlazno)</option>
-            <option value="abecednos">Abecedno(silazno)</option>
+            <option value="abecednoaz">Abecedno(A-Z)</option>
+            <option value="abecednoza">Abecedno(Z-A)</option>
             <option value="jeftino">Po cijeni(najjeftinije prvo)</option>
             <option value="skupo">Po cijeni(najskuplje prvo)</option>
         </select>
@@ -47,56 +47,56 @@
     <div id="proizvodi">
     <div class="proizvod">
         <img class="slikapr" src="assets/aspirin.png" alt="Slika proizvoda" width="256px" height="256px">
-        <div class="ime_proizvoda">Aspirin tablete</div>
+        <h3 class="ime_proizvoda">Aspirin tablete</h3>
         <br/>
         <p class="cijena_proizvoda">Cijena:</p><h4>20,70 KM</h4>
         <div class="kosarica">U košaricu<img src="assets/cart.png" width="24" height="20"></div>
     </div>
     <div class="proizvod">
         <img class="slikapr" src="assets/alpenkraft.png" alt="Slika proizvoda" width="256px" height="256px">
-        <div class="ime_proizvoda">Alpenkraft sirup</div>
+        <h3 class="ime_proizvoda">Alpenkraft sirup</h3>
         <br/>
         <p class="cijena_proizvoda">Cijena:</p><h4>26,50 KM</h4>
         <div class="kosarica">U košaricu<img src="assets/cart.png" width="24" height="20"></div>
     </div>
     <div class="proizvod">
         <img class="slikapr" src="assets/biotic.png" alt="Slika proizvoda" width="256px" height="256px">
-        <div class="ime_proizvoda">Omni Biotic Metabolic vrećice</div>
+        <h3 class="ime_proizvoda">Omni Biotic Metabolic vrećice</h3>
         <br/>
         <p class="cijena_proizvoda">Cijena:</p><h4>88,00 KM</h4>
         <div class="kosarica">U košaricu<img src="assets/cart.png" width="24" height="20"></div>
     </div>
     <div class="proizvod">
         <img class="slikapr" src="assets/antemig.png" alt="Slika proizvoda" width="256px" height="256px">
-        <div class="ime_proizvoda">Pileje Antemig tablete</div>
+        <h3 class="ime_proizvoda">Pileje Antemig tablete</h3>
         <br/>
         <p class="cijena_proizvoda">Cijena:</p><h4>59,90 KM</h4>
         <div class="kosarica">U košaricu<img src="assets/cart.png" width="20" height="20"></div>
     </div>
     <div class="proizvod">
         <img class="slikapr" src="assets/osteopan.png" alt="Slika proizvoda" width="256px" height="256px">
-        <div class="ime_proizvoda">Osteopan Plus tablete (60 tableta)</div>
+        <h3 class="ime_proizvoda">Osteopan Plus tablete (60 tableta)</h3>
         <br/>
         <p class="cijena_proizvoda">Cijena:</p><h4>25,00 KM</h4>
         <div class="kosarica">U košaricu<img src="assets/cart.png" width="20" height="20"></div>
     </div>
     <div class="proizvod">
         <img class="slikapr" src="assets/yasenka.png" alt="Slika proizvoda" width="256px" height="256px">
-        <div class="ime_proizvoda">Yasenka Imuno BC 500 kapsule</div>
+        <h3 class="ime_proizvoda">Yasenka Imuno BC 500 kapsule</h3>
         <br/>
         <p class="cijena_proizvoda">Cijena:</p><h4>53,50 KM</h4>
         <div class="kosarica">U košaricu<img src="assets/cart.png" width="20" height="20"></div>
     </div>
     <div class="proizvod">
         <img class="slikapr" src="assets/pip_farmakol.png" alt="Slika proizvoda" width="256px" height="256px">
-        <div class="ime_proizvoda">Pip Farmakol Propolis 150 sprej</div>
+        <h3 class="ime_proizvoda">Pip Farmakol Propolis 150 sprej</h3>
         <br/>
         <p class="cijena_proizvoda">Cijena:</p><h4>14,40 KM</h4>
         <div class="kosarica">U košaricu<img src="assets/cart.png" width="20" height="20"></div>
     </div>
     <div class="proizvod">
         <img class="slikapr" src="assets/arkovital.png" alt="Slika proizvoda" width="256px" height="256px">
-        <div class="ime_proizvoda">Arkopharma Arkovital Pure Energy tablete</div>
+        <h3 class="ime_proizvoda">Arkopharma Arkovital Pure Energy tablete</h3>
         <br/>
         <p class="cijena_proizvoda">Cijena:</p><h4>37,20 KM</h4>
         <div class="kosarica">U košaricu<img src="assets/cart.png" width="20" height="20"></div>
