@@ -16,7 +16,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('logout', function() {
-    return view("auth.login");
+    return view("auth.register");
 });
 
 Route::get('/proizvodi', function () {
