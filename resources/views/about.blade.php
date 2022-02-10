@@ -13,12 +13,8 @@
         </style>
     </head>
     <body>
-            <div id="kontenjer">
-        <div id="glava">
-            <div id="ljekarna"><img src="assets/logo.png" alt="Sanitas logo" width="200px" height="70px"></div>
-            <div id="trazilica"><input type="text" class="searchTerm" placeholder="Pretražite proizvode..."><button type="submit" class="searchButton"><i>Pretraži</i></div>
-    </div>
     <div id="k_prvi">
+            <div id="ljekarna"><img src="assets/logo.png" alt="Sanitas logo" width="200px" height="70px"></div>
             <div class="kartica"><a href="{{ url('/dashboard') }}" id="rubrika1">Početna</a></div>
             <div class="kartica"><a href="{{ url('/proizvodi') }}">Proizvodi</a></div>
             <div class="kartica"><a href="{{ url('/about') }}">O projektu</a></div>

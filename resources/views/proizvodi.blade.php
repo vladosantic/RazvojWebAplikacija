@@ -14,19 +14,15 @@
         </style>
     </head>
     <body>
-            <div id="kontenjer">
-        <div id="glava">
-            <div id="ljekarna"><img src="assets/logo.png" alt="Sanitas logo" width="200px" height="70px"></div>
-            <div id="trazilica"><input type="text" class="searchTerm" placeholder="Pretražite proizvode..."><button type="submit" class="searchButton">Pretraži</div>
-    </div>
     <div id="k_prvi">
-            <div class="kartica"><a href="{{ url('/dashboard') }}" id="rubrika1">Početna</a></div>
-            <div class="kartica"><a href="{{ url('/proizvodi') }}">Proizvodi</a></div>
-            <div class="kartica"><a href="{{ url('/about')}}" id="rubrika3" >O projektu</a></div>
-            <div class="kartica"><a href="{{ url('/model')}}">Dijagram</a></div>
-			<div class="kartica">Košarica<img src="assets/cart.png" width="20" height="20"></div>
-            <div class="kartica">Pozdrav, {{Auth::user()->name}}</div>
-            @if (Route::has('login'))
+        <div id="ljekarna"><img src="assets/logo.png" alt="Sanitas logo" width="200px" height="70px"></div>
+        <div class="kartica"><a href="{{ url('/dashboard') }}" id="rubrika1">Početna</a></div>
+        <div class="kartica"><a href="{{ url('/proizvodi') }}">Proizvodi</a></div>
+        <div class="kartica"><a href="{{ url('/about')}}" id="rubrika3" >O projektu</a></div>
+        <div class="kartica"><a href="{{ url('/model')}}">Dijagram</a></div>
+		<div class="kartica">Košarica<img src="assets/cart.png" width="20" height="20"></div>
+        <div class="kartica">Pozdrav, {{Auth::user()->name}}</div>
+        @if (Route::has('login'))
             <div class="kartica">
                 @auth
                 <a href="{{ route('logout') }}">Odjava</a>
