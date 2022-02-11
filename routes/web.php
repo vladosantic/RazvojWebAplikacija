@@ -8,7 +8,7 @@ use App\Http\Controllers\ProductController;
 
 
 Route::get('/', function () {
-    return view('auth.register');
+    return view('dashboard');
 });
 
 Route::get('/dashboard', function () {
@@ -16,11 +16,11 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('logout', function() {
-    return view("auth.register");
+    return view("dashboard");
 });
 
-Route::get('/proizvodi', function () {
-    return view('proizvodi');
+Route::get('/products', function () {
+    return view('products');
 });
 Route::get('/about', function () {
     return view('about');
@@ -44,3 +44,7 @@ Route::group(['middleware' => ['auth']], function() {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('cart', [ProductController::class, 'cart'])->name('cart');
+Route::get('add-to-cart/{id}', [ProductController::class, 'addToCart'])->name('add.to.cart');
+Route::patch('update-cart', [ProductController::class, 'update'])->name('update.cart');
+Route::delete('remove-from-cart', [ProductController::class, 'remove'])->name('remove.from.cart');

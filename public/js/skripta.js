@@ -5,7 +5,7 @@ function funkcija(value){
 		var pom;
 		for (var i = 0; i < sortiranje.length - 1; i++){
 		for(var j = 0; j < sortiranje.length - 1 - i; j++){
-			if(sortiranje[j].querySelector('h4').innerHTML.slice(0,2) > sortiranje[j+1].querySelector('h4').innerHTML.slice(0,2)){
+			if(sortiranje[j].querySelector('h5').innerHTML.slice(26,31) > sortiranje[j+1].querySelector('h5').innerHTML.slice(26,31)){
 				pom = sortiranje[j];
 				sortiranje[j] = sortiranje[j+1];
 				sortiranje[j+1] = pom;
@@ -24,7 +24,7 @@ function funkcija(value){
 		var pom;
 		for (var i = 0; i < sortiranje.length - 1; i++){
 		for(var j = 0; j < sortiranje.length - 1 - i; j++){
-			if(sortiranje[j].querySelector('h4').innerHTML.slice(0,2) < sortiranje[j+1].querySelector('h4').innerHTML.slice(0,2)){
+			if(sortiranje[j].querySelector('h5').innerHTML.slice(26,31) < sortiranje[j+1].querySelector('h5').innerHTML.slice(26,31)){
 				pom = sortiranje[j];
 				sortiranje[j] = sortiranje[j+1];
 				sortiranje[j+1] = pom;
