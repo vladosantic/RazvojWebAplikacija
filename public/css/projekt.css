@@ -482,4 +482,81 @@ h4{
     border:10px solid transparent;
     border-bottom-color:#fff;
 }
+.order{
+	margin: auto;
+	font-family: 'Inter', sans-serif;
+	color: white;
+	background-color: #1B4965;
+	margin-top: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.order h1{
+    align-self: center;
+}
+.container {
+    width: 75%;
+    padding: 2% 5%;
+}
 
+form {
+    width: 100%;}
+form input{
+    width: 100%;
+    min-height: 25px;
+    border: 0;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+.name {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.name div {
+        width: 45%;
+}
+.address-info {
+    display: flex;
+    justify-content: space-between}
+.address-info div {
+        width: 30%;
+}
+.cc-info {
+    display: flex;
+    justify-content: space-between;}
+
+.cc-info div {
+        width: 45%;
+    }
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.btns button {
+margin: 3px 0;
+height: 30px;
+width: 45%;
+color: white;
+background-color: #24638a;
+border: 0;
+border-radius: .3rem;
+letter-spacing: 2px;}
+.btns a {
+margin: 3px 0;
+height: 30px;
+width: 45%;
+color: white;
+text-align: center;
+background-color: #24638a;
+border: 0;
+border-radius: .3rem;
+letter-spacing: 2px;}
+.btns a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: white;
+}

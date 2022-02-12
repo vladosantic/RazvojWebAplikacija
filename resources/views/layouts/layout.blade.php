@@ -26,6 +26,7 @@
         <div class="kartica"><a href="{{ url('/about')}}" id="rubrika3" >O projektu</a></div>
         <div class="kartica"><a href="{{ url('/model')}}">Dijagram</a></div>
         <div class="kartica"><a href="{{ url('/cart')}}">Košarica<img src="assets/cart.png" width="20" height="20"></a></div>
+        <div class="kartica">Pozdrav, {{Auth::user()->name}}</div>
         @if (Route::has('login'))
         <div class="kartica">
             @auth

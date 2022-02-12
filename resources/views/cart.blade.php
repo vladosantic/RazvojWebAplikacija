@@ -44,7 +44,7 @@
         <tr>
             <td colspan="5" class="text-right">
                 <a href="{{ url('/products') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> Nastavite sa kupovinom</a>
-                <button class="btn btn-success">Naruči</button>
+                <a class="btn btn-success" href="{{ url('/narudzba') }}">Naruči</a>
             </td>
         </tr>
     </tfoot>
