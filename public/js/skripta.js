@@ -43,7 +43,7 @@ function funkcija(value){
 		var pom;
 		for (var i = 0; i < sortiranje.length - 1; i++){
 		for(var j = 0; j < sortiranje.length - 1 - i; j++){
-			if(sortiranje[j].querySelector('h3').innerHTML < sortiranje[j+1].querySelector('h3').innerHTML){
+			if(sortiranje[j].querySelector('h4').innerHTML < sortiranje[j+1].querySelector('h4').innerHTML){
 				pom = sortiranje[j];
 				sortiranje[j] = sortiranje[j+1];
 				sortiranje[j+1] = pom;
@@ -62,7 +62,7 @@ function funkcija(value){
 		var pom;
 		for (var i = 0; i < sortiranje.length - 1; i++){
 		for(var j = 0; j < sortiranje.length - 1 - i; j++){
-			if(sortiranje[j].querySelector('h3').innerHTML > sortiranje[j+1].querySelector('h3').innerHTML){
+			if(sortiranje[j].querySelector('h4').innerHTML > sortiranje[j+1].querySelector('h4').innerHTML){
 				pom = sortiranje[j];
 				sortiranje[j] = sortiranje[j+1];
 				sortiranje[j+1] = pom;

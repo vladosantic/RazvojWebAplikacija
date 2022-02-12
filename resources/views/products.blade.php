@@ -64,7 +64,7 @@
             <div class="thumbnail">
                 <img src="{{ $product->image }}" alt="Slika proizvoda">
                 <div class="caption">
-                    <h3 class="ime_proizvoda">{{ $product->name }}</h3>
+                    <h4 class="ime_proizvoda">{{ $product->name }}</h4>
                     <p class="opis_proizvoda">{{ $product->description }}</p>
                     <h5 class="cijena_proizvoda"><strong>Cijena: </strong> {{ $product->price }} KM</h5>
                     <p class="btn-holder"><a href="{{ route('add.to.cart', $product->id) }}" class="btn btn-warning btn-block text-center" role="button">Dodaj u košaricu</a></p>

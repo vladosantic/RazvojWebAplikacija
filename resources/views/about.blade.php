@@ -18,7 +18,6 @@
             <div class="kartica"><a href="{{ url('/dashboard') }}" id="rubrika1">Početna</a></div>
             <div class="kartica"><a href="{{ url('/products') }}">Proizvodi</a></div>
             <div class="kartica"><a href="{{ url('/about') }}">O projektu</a></div>
-            <div class="kartica"><a href="{{url('/model')}}">Dijagram</a></div>
 			<div class="kartica"><a href="{{ url('/cart')}}">Košarica<img src="assets/cart.png" width="20" height="20"></a></div>
             <div class="kartica">Pozdrav, {{Auth::user()->name}}</div>
             @if (Route::has('login'))
@@ -59,6 +58,8 @@
                 <li>JavaScript</li>
                 <li>PHP</li>
                 <li>MySQL Server</li>
+                <li>BootStrap</li>
+                <li>Laravel Framework</li>
             </ul>
         </div>
         
@@ -66,6 +67,13 @@
         
         
         <br/><br/><br/>
+
+        <div id="baza">
+        <p id="paragraf">Use-Case dijagram</p>
+        <img src="assets/model.png" alt="model baze" width="" heigh="">
+        </div>
+
+        <br><br>
 
         
         <div id="treci_dio"> 

@@ -16,7 +16,7 @@ class ProductSeeder extends Seeder
     {
         $products = [
             [
-                'name' => 'Aspirin tablete',
+                'name' => 'Aspirin 500mg tablete',
                 'description' => 'Aspirin 500 tablete',
                 'image' => 'assets/aspirin.png',
                 'price' => 20.70
@@ -31,7 +31,37 @@ class ProductSeeder extends Seeder
                 'name' => 'Yasenka Imuno',
                 'description' => '500 BC kapsule',
                 'image' => 'assets/yasenka.png',
-                'price' => 53.5
+                'price' => 53.50
+            ],
+            [
+                'name' => 'Alpenkraft Sirup',
+                'description' => 'Sirup za kašalj',
+                'image' => 'assets/alpenkraft.png',
+                'price' => 26.50
+            ],
+            [
+                'name' => 'Omni Biotic Metabolic vrećice',
+                'description' => 'Vrećice za metabolizam',
+                'image' => 'assets/biotic.png',
+                'price' => 88.00
+            ],
+            [
+                'name' => 'Pileje Antemig tablete',
+                'description' => 'Dodatak prehrani',
+                'image' => 'assets/antemig.png',
+                'price' => 59.90
+            ],
+            [
+                'name' => 'Pip Farmakol Propolis',
+                'description' => '150 sprej',
+                'image' => 'assets/pip_farmakol.png',
+                'price' => 14.40
+            ],
+            [
+                'name' => 'Arkopharma tablete',
+                'description' => 'Arkopharma Arkovital Pure Energy tablete',
+                'image' => 'assets/arkovital.png',
+                'price' => 37.20
             ],
         ];
   

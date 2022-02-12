@@ -208,6 +208,20 @@ a:link, a:visited, a:active, a:hover {
 	margin-bottom: 10px;
 	height:470px;
 }
+#paragraf{
+	font-family:'Inter', sans-serif;
+    color:white;
+	font-weight:bold;
+	background-color:#1B4965;
+	border:0.3px solid black;
+	border-radius:20px;
+	padding:10px;
+	border: 0.5px solid black;
+	font-weight:bold;
+	padding:10px;
+	width:15%;
+	margin: auto;
+}
 
 #slika_autora{
 	margin:auto;
